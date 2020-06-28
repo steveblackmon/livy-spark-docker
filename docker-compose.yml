@@ -1,0 +1,9 @@
+version: '3'
+
+services:
+
+  livy:
+    build: .
+    image: "probotsocial/livy"
+    ports:
+      - 8998:8998
